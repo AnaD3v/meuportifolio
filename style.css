@@ -2,111 +2,157 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #fcfdeb;
+}
+.container{
+    width: 100%;
+    height: 4298px;
+    background-color:#11071F;;
 }
 
+
+.logo{
+    display: flex;
+    font-family: 'Plus Jakarta Sans', cursive;
+    color: #ffffff;
+    padding: 7px;
+    background-color: transparent;
+    align-items: center;
+    margin-left: 20px;
+}
+.spanLogo{
+    display: flex;
+    color: #7127BA;
+    background-color: transparent;
+
+}
 .header{
     display: flex;
     justify-content: space-between;
-    align-items: normal;
-    padding: 20px;
+    width: 100%;
     height: 80px;
+    background: #1A0B2E;
+    box-shadow: 5px 10px 25px -8px rgba(0, 0, 0, 0.50);
 }
 
 .buttons{
-    display: flex;
-    gap: 20px;
+    gap: 25px;
+    background-color: transparent;
+    position: absolute;
+    padding-left: 148vh;
+    padding-top: 3.3vh;
 }
 
 .button{
-    padding: 7px;
-    border: none 2px transparent;
+    border: none 0px transparent;
     font-size: 15px;
     cursor: pointer;
-    transition: 0.2s;
-    font-family: 'Black Ops One', cursive;
-    font-size: 16px;
-    font-weight: bolder;
-    color: #29251c;
+    font-family: 'Plus Jakarta Sans', cursive;
+    color: #ffffff;
+    background-color: transparent;
+    margin-right: 25px;
+    transition: 0.3s;
+    padding: 8px;
 }
 
+
 .button:hover{
-    border-bottom: solid 2px transparent;
-    color: #e6aa9f;
+    border-bottom: solid 2px #ffffff;
 }
+
 
 .section{
     display: flex;
     flex-direction: row;
-    gap: 50vh;
 }
 
-.title{
-    color: #301E67;
-    margin-left: 30px;
-    margin-top: 15px;
+.photo {
+    height:400px;
+    width: 400px;
+    margin-top: 15vh;
+    margin-left: 15vh;
+    border-radius: 15px 15px 15px 15px;
+    position: absolute;
+    flex-shrink: 0;
+    z-index: 2;
 }
+.imgGradient{
+    position: absolute;
+    z-index: 1;
+    margin-top: 22vh;
+    margin-left: 15vh;
+    height: 80vh;
+    width: 70vh;
+}
+.photoEffect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 20vh;
+    margin-left: 18vh;
+    margin-top: 15vh;
+}
+.arrow{
+    display: flex;
+    position: absolute;
+    margin-left: 60vh;
+    margin-top: 10vh;
+    height: 25vh;
 
-
-.title1{
-    font-family: 'Black Ops One', cursive;
-    font-style: italic;
-    color: #383845;
-    font-size: 3vh;
-}
-
-.title2{
-    font-size: 80px;
-    font-family: 'Black Ops One', cursive;
-    color: #29251c;
-}
-
-.title3{
-    font-family: 'Black Ops One', cursive;
-    font-size: 18px;
-    margin-left: 20px;
-    color: #725b75;
-}
-
-.freature{
-    font-stretch:narrower ;
-    color: #9c9994;
-}
-.front{
-    color: #301E67;
-}
-
-.photoDev .photo{
-    height:500px;
-    width: 550px;
-    object-fit: cover;
-    margin-top: 45px;
-    margin-right: 50px;
-}
-@keyframes float{
-	0%,100%{
-		transform:translatey(0)
-	}
-	50%{
-		transform:translatey(-15px)
-	}
-}
-.photoDev {
-    animation: float 2s ease-in-out infinite;
 }
 
 .titles{
-    margin-top: 25vh;
-    margin-left: 8vh;
-}
-.logo{
+    color: #301E67;
+    margin-right: 30px;
+    margin-top: 30vh;
     display: flex;
-    font-family: 'Black Ops One', cursive;
-    color: #29251c;
-    padding: 7px;
+    flex-direction: column;
+    padding-left: 45vh;
+    padding-right: 20vh;
+    gap: 50px;
 }
-.spanLogo{
-    display: flex;
-    color: #e6aa9f;
 
+
+
+.title1{
+    font-family: 'Preahvihear', cursive;
+    justify-content: center;
+    flex-shrink: 0;
+    color:#ffffff;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 82vh;
+    margin-top: 15vh;
 }
+
+.title2{
+    font-family: 'Preahvihear', cursive;
+    color: #ffffff;
+    font-size: 50px;
+}
+.buttonCV{
+    display: flex;
+    position: absolute;
+    margin-top: 30vh;
+    padding: 12px;
+    border: solid 2px #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 10px;
+    font-family: 'Plus Jakarta Sans', cursive;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttonCV:hover{
+    background-color: #ffffff;
+    color: #7127BA;
+}
+
+.freature{
+    display: flex;
+}
+.front{
+    color: #7127BA;
+}
+
